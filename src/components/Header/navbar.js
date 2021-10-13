@@ -9,7 +9,7 @@ const Navbar = () => {
     return ( 
     <>
     <nav className="navbar navbar-expand-lg py-4 ">
-        <div className="container-fluid">
+        <div className="container">
             <Link className= "p-1 " to="/">
                 <img className={` bg-black ${styles.logo}`} src={Logo} alt="" objectfit='contain' width={134}/>
             </Link>
@@ -29,7 +29,6 @@ const Navbar = () => {
                         <Link key={navItem.id} className="mb my-md-2 my-lg-0" aria-current="page" to={navItem.href}>{navItem.title}</Link>
                     )))}
                     <div className="number my-md-2 my-lg-0 text-white w-25 lg-flex-end ">
-
                         <a href="tel:+32 (0)470 039969"> <span> <PhoneIcon className="h-18"/> </span>+32 (0)470 039969</a>
                     </div>
                 </div>

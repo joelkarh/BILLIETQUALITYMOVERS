@@ -9,7 +9,7 @@ function App() {
     <Router className='container-fluid'> 
       <Header/> 
       {/* <Main/> */}
-      <div class="div">
+      <div className="bg-greyblue">
         <Main/>
       </div>
       

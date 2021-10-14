@@ -2,28 +2,32 @@ import React, { useEffect, useState } from "react"
 import Logo from '../../assets/LogoDN.png'
 import styles from './navbar.module.css'
 import {_Navbar} from '../../data/_data'
+import {Img} from 'react-image' 
 import {Link} from "react-router-dom";
 import {PhoneIcon} from '@heroicons/react/solid'
 
 const Navbar = () => {
-    const [show, handleShow]=useState(false) // 
+    const [show, handleShow]=useState(false) ;// 
+
     function transitionNavbar(){
-        if(window.scrollY > 100){
-            handleShow(true)
+        if(window.scrollY > 150){
+            handleShow(true);
+            
         }else{
             handleShow(false) 
         }
     }
+    
     useEffect(() => {
         window.addEventListener("scroll",transitionNavbar);
         return () => window.removeEventListener("scroll",transitionNavbar)
     },[]);
     return ( 
     <>
-    <nav className={`navbar navbar-expand-lg py-4 ${show && 'nav-black'}` } >
+    <nav className={`navbar navbar-expand-lg py-2 ${show && 'nav_black'}` } >
         <div className="container">
             <Link className= "p-1 " to="/">
-                <img className={` bg-black ${styles.logo}`} src={Logo} alt="" objectfit='contain' width={134}/>
+                <Img className={` bg-black ${styles.logo}`} src={Logo} alt="" objectfit='contain' width={134}/>
             </Link>
             <button
                 className="navbar-toggler"

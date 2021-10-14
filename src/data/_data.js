@@ -48,3 +48,36 @@ export const _Main =
         'body':`Gaat uw firma of bedrijf verhuizen? Wilt U dit efficiënt en volgens plan laten verlopen, zodat uw team snel weer aan het werk kan op de nieuwe locatie? Wij hebben de expertise in de verhuis van kantoren, administraties en diensten.`
     },
 ]
+
+export const _MainProject = [
+    {
+        'id':1,
+        'imageTitle': 'A',
+        'src':'',
+    },
+    {
+        'id':2,
+        'imageTitle': 'A',
+        'src':'',
+    },
+    {
+        'id':3,
+        'imageTitle': 'A',
+        'src':'',
+    },
+    {
+        'id':4,
+        'imageTitle': 'A',
+        'src':'',
+    },
+    {
+        'id':5,
+        'imageTitle': 'A',
+        'src':'',
+    },
+    {
+        'id':6,
+        'imageTitle': 'A',
+        'src':'',
+    }
+]

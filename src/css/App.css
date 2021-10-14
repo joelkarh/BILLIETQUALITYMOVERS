@@ -112,7 +112,7 @@ z-index: 5;
   webkit-font-smootinh: antialiased;
   background: white;
   box-shadow: 0px 2px 14px 0px #14274e;
-
+  height: 192px;
 }
 .image-box > img {
   width: 100%;

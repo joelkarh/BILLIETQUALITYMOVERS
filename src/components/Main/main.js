@@ -15,10 +15,10 @@ const Main = () => {
                 </div>
                 <MainAbout/>
             </section>
-            <section className=".row bg-danger   ">
-                <div class="col-12 callToA">
-                    <h2 className="py-2  ">Wenst U Een Vrijblijvende Offerte</h2>
-                    <button className="btn btn-sm my-2 btn-outline-dark"> Aanvraag Offerte</button>
+            <section className=".row section__One   ">
+                <div class="col-12 callToA d-flex flex-column align-items-center text-center text-md-start ">
+                    <h2 className="py-2">Wenst U Een Vrijblijvende Offerte</h2>
+                    <button className="btn btn-lg my-2 btn-outline-danger"> Aanvraag Offerte</button>
                 </div>
                 
                 

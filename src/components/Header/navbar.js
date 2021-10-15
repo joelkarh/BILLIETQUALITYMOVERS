@@ -4,7 +4,8 @@ import styles from './navbar.module.css'
 import {_Navbar} from '../../data/_data'
 import {Img} from 'react-image' 
 import {Link} from "react-router-dom";
-import {PhoneIcon} from '@heroicons/react/solid'
+import {PhoneIcon,  MailIcon} from '@heroicons/react/solid'
+
 
 const Navbar = () => {
     const [show, handleShow]=useState(false) ;// 
@@ -45,7 +46,10 @@ const Navbar = () => {
                         <Link key={navItem.id} className="mb my-md-2 my-lg-0" aria-current="page" to={navItem.href}>{navItem.title}</Link>
                     )))}
                     <div className="number my-md-2 my-lg-0 text-white w-25 lg-flex-end ">
-                        <a href="tel:+32 (0)470 039969"> <span> <PhoneIcon className="h-18"/> </span>+32 (0)470 039969</a>
+                        <Link to="tel:+32 (0)470 039969"> <PhoneIcon className="h-18    s"/>+32 (0)470 039969</Link>
+                        <Link to="mailto:joelkarhamba@hotmail.com" className="ms-4 d-flex">
+                            <MailIcon className="h-100"/>
+                        </Link>
                     </div>
                 </div>
                 

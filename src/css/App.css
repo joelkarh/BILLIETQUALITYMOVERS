@@ -62,6 +62,9 @@ z-index: 5;
 {
   z-index:7;
 }
+.babyblue-color{
+  color:#14273A;
+}
 .babyblue{
   background-color: #14274E !important;
   border-color: #14274E !important;
@@ -120,6 +123,13 @@ z-index: 5;
 
 .offerte{
   width: 100px;
+}
+.section__One {
+  background-color: #394867;
+  color:#fff;
+}
+.callToA{
+
 }
 
 @media screen and  (min-width: 768px){

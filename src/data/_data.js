@@ -46,35 +46,3 @@ export const _Main =
     },
 ]
 
-export const _MainProject = [
-    {
-        'id':1,
-        'imageTitle': 'A',
-        'src':'',
-    },
-    {
-        'id':2,
-        'imageTitle': 'A',
-        'src':'',
-    },
-    {
-        'id':3,
-        'imageTitle': 'A',
-        'src':'',
-    },
-    {
-        'id':4,
-        'imageTitle': 'A',
-        'src':'',
-    },
-    {
-        'id':5,
-        'imageTitle': 'A',
-        'src':'',
-    },
-    {
-        'id':6,
-        'imageTitle': 'A',
-        'src':'',
-    }
-]

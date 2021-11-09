@@ -92,11 +92,14 @@ z-index: 5;
   border-bottom: 1px solid #14274E ;
   padding-bottom: 10px;
 }
+.title-One > h3{
+  text-transform: none;
+}
 .main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0,0,0,0.026);
+  /* background-color: rgba(0,0,0,0.026); */
 }
 .main > h2{
   font-size:1.125rem;
@@ -128,10 +131,15 @@ z-index: 5;
   background-color: #394867;
   color:#fff;
 }
-.callToA{
-
+.section__One{
+  padding: 30px;
 }
-
+.overflow{
+  height: 100%;
+  position: absolute;
+  background-color:rgba(0,0,0,0.5);
+  top: -6px;
+}
 @media screen and  (min-width: 768px){
   .mb{
     height: auto;
@@ -146,6 +154,7 @@ z-index: 5;
 
 
 @media screen and (min-width: 992px){
+  
   nav{
     position:fixed !important;
     width:100% !important;
